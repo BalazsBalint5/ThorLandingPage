@@ -5,10 +5,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .main-container{
     display: flex;
     flex-direction: column;
-
 }
 
 .header-container{
@@ -17,20 +21,118 @@
     align-items: center;
     flex-direction: row;
     background-color: #1f2937;
-    padding: 10px 150px 0px 150px;
+    padding: 20px 100px 0px 100px;
 }
 
 .header-items{
     display: flex;
     font-size: 18px;
-    color: #E5E7EB;
     gap: 25px;
     font-weight: 300;
 }
-
 
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.header-item:link,
+.header-item:visited,
+.header-item:hover,
+.header-item:active{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* HERO */
+
+.hero-container{
+    display: flex;
+    background-color: #1f2937;
+    padding: 120px 100px;
+    gap: 25px;
+}
+
+.hero-container div{
+    height: 15rem;
+}
+
+.hero-information{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.hero-signup-btn{
+    cursor: pointer;
+    padding: 8px 35px;
+    background-color: #3882F6;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.hero-img{
+    flex: 1;
+    background-color: gray;
+}
+
+.hero-main-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-main-paragh{
+    padding-bottom: 15px;
+}
+
+.mid-section-main-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.mid-section-img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid blue;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.mid-section-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+}
+
+.mid-section-text{
+    color: black;
+    font-size: 16px;
+    text-align: center;
 }
